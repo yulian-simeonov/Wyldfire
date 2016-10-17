@@ -1,0 +1,21 @@
+Before deploying:
+    check which API endpoint is enabled
+    search for debug to look for location/etc/debug settings
+
+
+changed for TF crash reporting:
+Strip Linked Product
+Strip Debug Symbols...
+
+Scratch Pad:
+/data/get/bk_account?id=
+/data/get/bk_account?id=5839662bbc754e64a33e6ce6e5e9d519
+/wf/browse?gender=f,m&age=20,30&latitude=34.01322978859281&longitude=-118.4944594021505&distance=160
+
+
+needs to work
+/wf/geofence?latitude=37&longitude=-122
+
+
+
+/wf/geofence?latitude=37&longitude=-122 will either be 404 or 200

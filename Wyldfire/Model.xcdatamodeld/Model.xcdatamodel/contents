@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DBAccount" representedClassName="DBAccount" syncable="YES">
+        <attribute name="accountID" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="avatarPhoto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="burned" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="created" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebookEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebookID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="inBlackbook" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="inChat" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isMale" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePhoto1" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="profilePhoto2" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="profilePhoto3" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="profilePhoto4" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="sentShareTo" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="showcasePhoto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="showInMatches" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="updated" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="created" attributeType="Date" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="mtime" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="senderAccountID" attributeType="String" syncable="YES"/>
+        <attribute name="sent" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="updated" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DBAccount" positionX="-63" positionY="-18" width="128" height="390"/>
+        <element name="Message" positionX="-227" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>

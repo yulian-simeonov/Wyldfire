@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Wyldfire' target in the 'Wyldfire' project
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import "WFCore.h"
+#endif
+
+#define Error(fmt, ...) NSLog((@"Error: %s:%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#ifdef DEBUG
+#define Debug(fmt, ...) NSLog((@"%s:%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define Debug(...)
+#endif

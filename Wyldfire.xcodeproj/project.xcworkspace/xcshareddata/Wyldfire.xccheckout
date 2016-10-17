@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C56BABD8-1853-4EB7-BB77-10D1AF5CE05F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wyldfire</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D366C28D-D6D4-44DE-8650-10A581C0EE22</key>
+		<string>https://bitbucket.org/wyldfire/wyldfire-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wyldfire.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D366C28D-D6D4-44DE-8650-10A581C0EE22</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/wyldfire/wyldfire-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D366C28D-D6D4-44DE-8650-10A581C0EE22</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D366C28D-D6D4-44DE-8650-10A581C0EE22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wyldfire_masterbranch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
